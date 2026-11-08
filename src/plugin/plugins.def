@@ -6,6 +6,7 @@
 // name, instrument, effect kind, instrument kind, clap id, VST3 code, VST3 category, built (1 = compiled now)
 LYNX_PLUGIN ("LYNX Facet EQ", 0, facetEq, dx10, "com.ka1-s.lynx.facet-eq", 0x4c6e7846, "Fx|EQ", 1)
 LYNX_PLUGIN ("LYNX FM10", 1, eq, dx10, "com.ka1-s.lynx.fm10", 0x4c6e7831, "Instrument|Synth", 1)
+LYNX_PLUGIN ("LYNX Ridge Strip", 0, ridgeStrip, dx10, "com.ka1-s.lynx.ridge-strip", 0x4c6e7837, "Fx|EQ", 1)
 LYNX_PLUGIN ("LYNX Osc Trio", 1, eq, threeosc, "com.ka1-s.lynx.osc-trio", 0x4c6e7832, "Instrument|Synth", 0)
 LYNX_PLUGIN ("LYNX SimOsc", 1, eq, simsynth, "com.ka1-s.lynx.simosc", 0x4c6e7833, "Instrument|Synth", 0)
 LYNX_PLUGIN ("LYNX Harmlite", 1, eq, harmless, "com.ka1-s.lynx.harmlite", 0x4c6e7834, "Instrument|Synth", 0)
