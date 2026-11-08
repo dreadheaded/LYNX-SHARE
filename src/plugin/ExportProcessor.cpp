@@ -193,6 +193,11 @@ public:
             song.channels[0].name = entry.name; // (the name of this build's table, plugin/plugins.def)
         else
             slot().smartDisable = false;
+           if (entry.effect == EffectKind::ridgeStrip)
+   {
+       slot.params[(std::size_t) mixsuite::ridge::console4k] = 1.0f;
+       slot.params[(std::size_t) mixsuite::ridge::k4Colour] = mixsuite::ridge::k4ColourValue (1);
+   }
         showValues();
         if (rate > 0.0)
             publish();
